@@ -62,11 +62,9 @@ mv ${DIR_TMP}/UnblockNeteaseMusic-0.25.3 ${DIR_RUNTIME}/UnblockNeteaseMusic
 install -m 755 ${DIR_TMP}/v2ray ${DIR_RUNTIME}
 rm -rf ${DIR_TMP}
 
-# Run UnblockNeteaseMusic
-node ${DIR_RUNTIME}/UnblockNeteaseMusic/app.js -s -e http://music.163.com -p 8080
-
-# Run V2Ray
-${DIR_RUNTIME}/v2ray -config=${DIR_CONFIG}/config.pb
+# Run
+sh run-unblockNeteaseMusic.sh
+sh run-v2ray.sh
 
 # Version
 node -v
