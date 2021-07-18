@@ -12,6 +12,6 @@ COPY package*.json ./
 RUN npm install --production
 COPY . .
 
-EXPOSE 8000 8001
+EXPOSE 8080
 
 ENTRYPOINT ["sh", "-c", "/opt/entrypoint.sh"]

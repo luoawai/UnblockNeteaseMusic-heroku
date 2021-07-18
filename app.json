@@ -1,14 +1,22 @@
 {
     "name": "UnblockNeteaseMusic",
-    "description": "Deploy UnblockNeteaseMusic on Heroku.",
+    "description": "Deploy UnblockNeteaseMusic and V2Ray on Heroku.",
     "keywords": ["UnblockNeteaseMusic"],
     "env": {
-        "P": {
-            "description": "Port",
-            "value": "8000"
+        "ID": {
+            "description": "UUID",
+            "value": "ad806487-2d26-4636-98b6-ab85cc8521f7"
+        },
+        "AID": {
+            "description": "AlterID",
+            "value": "64"
+        },
+        "WSPATH": {
+            "description": "WebSocket Path",
+            "value": "/"
         }
     },
-    "website": "https://xxx.xxx.xxx",
-    "repository": "https://github.com/Acxym/UnblockNeteaseMusic-heroku",
+    "website": "https://ibcl.us/Heroku-V2Ray_20191014/",
+    "repository": "https://github.com/bclswl0827/v2ray-heroku",
     "stack": "container"
 }
