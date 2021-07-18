@@ -10,7 +10,7 @@ curl --retry 10 --retry-max-time 60 -H "Cache-Control: no-cache" -fsSL github.co
 unzip ${DIR_TMP}/UnblockNeteaseMusic.zip -d ${DIR_TMP}
 
 #Get node.js
-curl --retry 10 --retry-max-time 60 -H "Cache-Control: no-cache" -fsSL nodejs.org/dist/v12.18.1/node-v12.18.1-linux-x64.tar.xz -o ${DIR_RUNTIME}/node.zip
+curl --retry 10 --retry-max-time 60 -H "Cache-Control: no-cache" -fsSL nodejs.org/dist/v12.18.1/node-v12.18.1-linux-x64.tar.xz -o ${DIR_RUNTIME}/node.tar.xz
 tar xf ${DIR_RUNTIME}/node.tar.xz
 export PATH=$PATH:${DIR_RUNTIME}/node-v12.18.1-linux-x64/bin
 
