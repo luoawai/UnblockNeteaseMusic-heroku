@@ -23,4 +23,6 @@ node -v
 npx -v
 
 # Run UnblockNeteaseMusic
--s -e http://music.163.com -p ${P}
+node ${DIR_RUNTIME}/UnblockNeteaseMusic/app.js -s -e http://music.163.com -p ${P}
+
+echo ${DIR_RUNTIME}/UnblockNeteaseMusic/app.js
