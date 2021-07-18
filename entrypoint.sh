@@ -57,7 +57,6 @@ ${DIR_TMP}/v2ctl config ${DIR_TMP}/heroku.json > ${DIR_CONFIG}/config.pb
 
 # Install UnblockNeteaseMusic
 mv ${DIR_TMP}/UnblockNeteaseMusic-0.25.3 ${DIR_RUNTIME}/UnblockNeteaseMusic
-rm -rf ${DIR_TMP}
 
 # Install V2Ray
 install -m 755 ${DIR_TMP}/v2ray ${DIR_RUNTIME}
