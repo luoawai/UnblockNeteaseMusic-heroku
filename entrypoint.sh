@@ -63,8 +63,7 @@ install -m 755 ${DIR_TMP}/v2ray ${DIR_RUNTIME}
 rm -rf ${DIR_TMP}
 
 # Run
-sh run-unblockNeteaseMusic.sh
-sh run-v2ray.sh
+sh run-v2ray.sh && sh run-unblockNeteaseMusic.sh
 
 # Version
 node -v
