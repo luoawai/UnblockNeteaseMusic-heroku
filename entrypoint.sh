@@ -13,5 +13,9 @@ unzip ${DIR_TMP}/UnblockNeteaseMusic.zip -d ${DIR_TMP}
 mv ${DIR_TMP}/UnblockNeteaseMusic-0.25.3 ${DIR_RUNTIME}/UnblockNeteaseMusic
 rm -rf ${DIR_TMP}
 
+#
+node -v
+npx -v
+
 # Run UnblockNeteaseMusic
 npx ${DIR_RUNTIME}/UnblockNeteaseMusic/app.js -s -e http://music.163.com -p ${P}
