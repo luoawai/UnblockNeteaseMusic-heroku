@@ -22,23 +22,10 @@ cat << EOF > ${DIR_TMP}/heroku.json
             "wsSettings": {
                 "path": "${WSPATH}"
             }
-        },
-		"proxySettings": {
-		"tag": "HTTP"  
         }
     }],
     "outbounds": [{
-		"protocol": "http",
-		"settings": {
-        "servers": [
-			{
-				"address": "127.0.0.1",
-				"port": 8080,
-				"users": []
-			}
-        ]
-      },
-      "tag": "HTTP"
+	"protocol": "freedom",
     }]
 }
 EOF
