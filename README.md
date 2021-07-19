@@ -1,3 +1,6 @@
+# 采用 V2Ray Heroku + UnblockNeteaseMusic
+部署完成后，每次启动应用时，运行的 V2Ray 将始终为最新版本，能在提供网上冲浪的同时解锁网易云灰色歌曲。
+
 # UnblockNeteaseMusic
 <img src="https://user-images.githubusercontent.com/26399680/47980314-0e3f1700-e102-11e8-8857-e3436ecc8beb.png" alt="logo" width="140" height="140" align="right">
 
@@ -15,8 +18,6 @@
 ## 概述
 
 本专案用于在 Heroku 上部署 UnblockNeteaseMusic 和 V2Ray WebSocket，在合理使用的程度下，本镜像不会因为大量占用资源而导致封号。
-
-部署完成后，每次启动应用时，运行的 V2Ray 将始终为最新版本，能在提供网上冲浪的同时解锁网易云灰色歌曲。
 
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/Acxym/v2ray-heroku)
 
