@@ -1,4 +1,5 @@
-# 采用 V2Ray Heroku + UnblockNeteaseMusic
+# 概述
+采用 V2Ray + UnblockNeteaseMusic
 部署完成后，每次启动应用时，运行的 V2Ray 将始终为最新版本，能在提供网上冲浪的同时解锁网易云灰色歌曲。
 
 # UnblockNeteaseMusic
@@ -11,15 +12,11 @@
 - 使用 QQ / 虾米 / 百度 / 酷狗 / 酷我 / 咪咕 / JOOX 音源替换变灰歌曲链接 (默认仅启用一、五、六)
 - 为请求增加 `X-Real-IP` 参数解锁海外限制，支持指定网易云服务器 IP，支持设置上游 HTTP / HTTPS 代理
 - 完整的流量代理功能 (HTTP / HTTPS)，可直接作为系统代理 (同时支持 PAC)
-# V2Ray Heroku
+
+# V2Ray
 
 **Heroku 已经封禁本专案，请 Fork 本专案后，将 `README.md` 中的 `Acxym` 替换为自己的用户名后，再进行部署。**
 
-## 概述
-
-本专案用于在 Heroku 上部署 UnblockNeteaseMusic 和 V2Ray WebSocket，在合理使用的程度下，本镜像不会因为大量占用资源而导致封号。
-
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/Acxym/UnblockNeteaseMusic-heroku)
 
 ## 部署
 
@@ -30,6 +27,8 @@
 | `ID` | `ad806487-2d26-4636-98b6-ab85cc8521f7` | VMess 用户主 ID，用于身份验证，为 UUID 格式 |
 | `AID` | `64` | 为进一步防止被探测所设额外 ID，即 AlterID，范围为 0 至 65535 |
 | `WSPATH` | `/` | WebSocket 所使用的 HTTP 协议路径 |
+
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/Acxym/UnblockNeteaseMusic-heroku)
 
 ## 接入 CloudFlare
 
