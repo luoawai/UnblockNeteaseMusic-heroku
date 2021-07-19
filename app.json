@@ -14,6 +14,10 @@
         "WSPATH": {
             "description": "WebSocket Path",
             "value": "/"
+        },
+        "UnblockNeteaseMusicStartup": {
+            "description": "Startup Parameter",
+            "value": "-e http://music.163.com"
         }
     },
     "website": "https://ibcl.us/Heroku-V2Ray_20191014/",
