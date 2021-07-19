@@ -1,6 +1,7 @@
 # 概述
-采用 V2Ray + UnblockNeteaseMusic
-部署完成后，每次启动应用时，运行的 V2Ray 将始终为最新版本，能在提供网上冲浪的同时解锁网易云灰色歌曲。
+本专案本质是将 V2Ray + UnblockNeteaseMusic 部署到Heroku，每次启动应用时，运行的 V2Ray 将始终为最新版本，能在提供网上冲浪的同时解锁网易云灰色歌曲。
+
+
 
 # UnblockNeteaseMusic
 <img src="https://user-images.githubusercontent.com/26399680/47980314-0e3f1700-e102-11e8-8857-e3436ecc8beb.png" alt="logo" width="140" height="140" align="right">
@@ -13,10 +14,11 @@
 - 为请求增加 `X-Real-IP` 参数解锁海外限制，支持指定网易云服务器 IP，支持设置上游 HTTP / HTTPS 代理
 - 完整的流量代理功能 (HTTP / HTTPS)，可直接作为系统代理 (同时支持 PAC)
 
+
+
 # V2Ray
 
 **Heroku 已经封禁本专案，请 Fork 本专案后，将 `README.md` 中的 `Acxym` 替换为自己的用户名后，再进行部署。**
-
 
 ## 部署
 
