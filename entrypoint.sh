@@ -22,10 +22,23 @@ cat << EOF > ${DIR_TMP}/heroku.json
             "wsSettings": {
                 "path": "${WSPATH}"
             }
+        },
+		"proxySettings": {
+		"tag": "HTTP"
         }
     }],
-    "outbounds": [{
-	"protocol": "freedom"
+	"outbounds": [{
+		"protocol": "http",
+		"settings": {
+		"servers": [
+			{
+				"address": "127.0.0.1",
+				"port": 8080,
+				"users": []
+			}
+		]
+		},
+		"tag": "HTTP"
     }]
 }
 EOF
@@ -50,7 +63,7 @@ install -m 755 ${DIR_TMP}/v2ray ${DIR_RUNTIME}
 rm -rf ${DIR_TMP}
 
 # Run
-node ${DIR_RUNTIME}/UnblockNeteaseMusic/app.js -s -e http://music.163.com -p 8080 & ${DIR_RUNTIME}/v2ray --config=${DIR_CONFIG}/config.pb
+node ${DIR_RUNTIME}/UnblockNeteaseMusic/app.js -e http://music.163.com -p 8080 & ${DIR_RUNTIME}/v2ray --config=${DIR_CONFIG}/config.pb
 
 # Version
 node -v
