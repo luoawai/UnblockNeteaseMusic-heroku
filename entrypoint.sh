@@ -48,7 +48,7 @@ curl --retry 10 --retry-max-time 60 -H "Cache-Control: no-cache" -fsSL github.co
 busybox unzip ${DIR_TMP}/v2ray_dist.zip -d ${DIR_TMP}
 
 # Get UnblockNeteaseMusic executable release
-curl --retry 10 --retry-max-time 60 -H "Cache-Control: no-cache" -fsSL github.com/nondanee/UnblockNeteaseMusic/archive/refs/tags/v0.25.3.zip -o ${DIR_TMP}/UnblockNeteaseMusic.zip
+curl --retry 10 --retry-max-time 60 -H "Cache-Control: no-cache" -fsSL github.com/Acxym/UnblockNeteaseMusic/archive/refs/tags/v0.25.3.zip -o ${DIR_TMP}/UnblockNeteaseMusic.zip
 busybox unzip ${DIR_TMP}/UnblockNeteaseMusic.zip -d ${DIR_TMP}
 
 # Convert to protobuf format configuration
