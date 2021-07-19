@@ -1,16 +1,24 @@
+# UnblockNeteaseMusic
+<img src="https://user-images.githubusercontent.com/26399680/47980314-0e3f1700-e102-11e8-8857-e3436ecc8beb.png" alt="logo" width="140" height="140" align="right">
+
+解锁网易云音乐客户端变灰歌曲
+
+## 特性
+
+- 使用 QQ / 虾米 / 百度 / 酷狗 / 酷我 / 咪咕 / JOOX 音源替换变灰歌曲链接 (默认仅启用一、五、六)
+- 为请求增加 `X-Real-IP` 参数解锁海外限制，支持指定网易云服务器 IP，支持设置上游 HTTP / HTTPS 代理
+- 完整的流量代理功能 (HTTP / HTTPS)，可直接作为系统代理 (同时支持 PAC)
 # V2Ray Heroku
 
-**Heroku 已经封禁本专案，请 Fork 本专案后，将 `README.md` 中的 `bclswl0827` 替换为自己的用户名后，再进行部署。**
-
-**若需部署 V2Ray VLESS，请转到 [vless](https://github.com/bclswl0827/v2ray-heroku/tree/vless) 分支。**
+**Heroku 已经封禁本专案，请 Fork 本专案后，将 `README.md` 中的 `Acxym` 替换为自己的用户名后，再进行部署。**
 
 ## 概述
 
-本专案用于在 Heroku 上部署 V2Ray WebSocket，在合理使用的程度下，本镜像不会因为大量占用资源而导致封号。
+本专案用于在 Heroku 上部署 UnblockNeteaseMusic 和 V2Ray WebSocket，在合理使用的程度下，本镜像不会因为大量占用资源而导致封号。
 
-部署完成后，每次启动应用时，运行的 V2Ray 将始终为最新版本。
+部署完成后，每次启动应用时，运行的 V2Ray 将始终为最新版本，能在提供网上冲浪的同时解锁网易云灰色歌曲。
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/bclswl0827/v2ray-heroku)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/Acxym/v2ray-heroku)
 
 ## 部署
 
