@@ -30,7 +30,7 @@
 | `AID` | `64` | 为进一步防止被探测所设额外 ID，即 AlterID，范围为 0 至 65535 |
 | `WSPATH` | `/` | WebSocket 所使用的 HTTP 协议路径 |
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/Acxym/UnblockNeteaseMusic-heroku)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/luoawai/UnblockNeteaseMusic-heroku)
 
 ## 接入 CloudFlare
 
